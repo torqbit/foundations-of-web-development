@@ -1,0 +1,33 @@
+.nav {
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  margin: 50px auto;
+  border-radius: 25px;
+}
+.nav__links {
+  height: 50px;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: #666;
+  padding: 10px 15px;
+}
+
+.nav__links--active {
+  background-color: #eee;
+  border-radius: 25px;
+  color: black;
+}
+
+.nav__links a:hover {
+  background-color: #eee;
+  border-radius: 25px;
+  color: black;
+}

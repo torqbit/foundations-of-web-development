@@ -1,0 +1,22 @@
+p {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+div > p {
+  color: blue;
+}
+
+div > p.selected {
+  color: green;
+}
+
+div > p:first-child {
+  color: red;
+}
+div #paragraph {
+  color: black;
+}
+* {
+  color: brown;
+}
