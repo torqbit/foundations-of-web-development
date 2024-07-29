@@ -1,0 +1,30 @@
+.about {
+    text-align: center;
+}
+
+.about__img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.about p {
+    max-width: 500px;
+    margin: 0 auto;
+    color: #666;
+}
+
+.about__links {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.about__links img {
+    height: 40px;
+    width: auto;
+}
