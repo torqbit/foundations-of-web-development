@@ -1,11 +1,11 @@
-nav {
+.nav {
   width: 500px;
   height: 50px;
   background-color: white;
   margin: 50px auto;
   border-radius: 25px;
 }
-nav > ul {
+.nav__links {
   height: 50px;
   list-style-type: none;
   display: flex;
@@ -14,11 +14,19 @@ nav > ul {
   justify-content: center;
 }
 
-nav a {
+.nav__links a {
   text-decoration: none;
   color: #666;
+  padding: 10px 15px;
 }
 
-nav a:hover {
+.nav__links__item--active {
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+.nav__links a:hover {
   color: black;
+  background-color: #eee;
+  border-radius: 20px;
 }
