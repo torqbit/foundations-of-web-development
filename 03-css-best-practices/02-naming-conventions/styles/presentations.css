@@ -1,0 +1,32 @@
+section#presentations > div {
+  display: flex;
+  gap: 40px;
+}
+div.presentation-video {
+  width: 380px;
+  height: 238px;
+  position: relative;
+}
+div.presentation-video > img:first-child {
+  width: 380px;
+}
+div.presentation-video > img:last-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+section#presentations h4 {
+  margin: 10px 10px 10px 5px;
+}
+section#presentations p {
+  margin: 5px;
+}
+section#presentations > div > div > div:last-child {
+  padding: 20px;
+  background-color: white;
+  height: 60px;
+}

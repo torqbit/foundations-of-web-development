@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="keywords" content="Coder, Software Engineer" />
+    <meta name="description" content="All about my present, past and future aspirations" />
+    <title>John | The Software expert</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: #eee;
+      }
+
+      nav {
+        width: 500px;
+        height: 50px;
+        background-color: white;
+        margin: 50px auto;
+        border-radius: 25px;
+      }
+      nav > ul {
+        height: 50px;
+        list-style-type: none;
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #666;
+      }
+
+      nav a:hover {
+        color: black;
+      }
+
+      section {
+        width: 800px;
+        margin: 50px auto;
+      }
+
+      section#about {
+        text-align: center;
+      }
+
+      section#about > img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 6px solid white;
+      }
+
+      section#about p {
+        max-width: 500px;
+        margin: 0 auto;
+        color: #666;
+      }
+
+      section#about ul {
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+      }
+
+      section#about ul img {
+        height: 40px;
+        width: auto;
+      }
+
+      section#articles > article > article {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+      }
+
+      section#articles > article > article > div {
+        border-left: 4px solid #eee;
+        padding-left: 10px;
+      }
+
+      section#articles a {
+        color: #666;
+        width: 90px;
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px;
+        background-image: url("../img/right-arrow-dark.png");
+        background-repeat: no-repeat;
+        background-position: 80px;
+        background-color: #eee;
+        border-radius: 4px;
+        transition: all 0.3s;
+      }
+
+      section#articles a:hover {
+        background-color: #666;
+        color: white;
+        background-position: 85px;
+        background-image: url("../img/right-arrow-light.png");
+      }
+
+      section#projects > div {
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      section#projects > div > div {
+        height: 240px;
+        width: 400px;
+        position: relative;
+      }
+
+      section#projects img {
+        width: 400px;
+      }
+
+      section#projects span {
+        position: absolute;
+        top: 20px;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border-left: 4px solid white;
+      }
+
+      section#projects p {
+        position: absolute;
+        bottom: 0;
+        padding: 15px 0 15px 20px;
+        height: 20px;
+        background-color: rgb(64 64 64 / 80%);
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        width: 380px;
+        margin: 0;
+      }
+
+      section#presentations > div {
+        display: flex;
+        gap: 40px;
+      }
+      div.presentation-video {
+        width: 380px;
+        height: 238px;
+        position: relative;
+      }
+      div.presentation-video > img:first-child {
+        width: 380px;
+      }
+      div.presentation-video > img:last-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+      }
+
+      section#presentations h4 {
+        margin: 10px 10px 10px 5px;
+      }
+      section#presentations p {
+        margin: 5px;
+      }
+      section#presentations > div > div > div:last-child {
+        padding: 20px;
+        background-color: white;
+        height: 60px;
+      }
+      footer {
+        display: flex;
+        width: 1000px;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+      }
+      footer > ul {
+        display: flex;
+        list-style-type: none;
+        gap: 10px;
+      }
+      footer a {
+        color: #666;
+        text-decoration: none;
+      }
+      footer a:hover {
+        color: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#presentations">Presentations</a></li>
+      </ul>
+    </nav>
+
+    <section id="about">
+      <img src="https://mighty.tools/mockmind-api/content/human/41.jpg" alt="my face" />
+      <h1>John Doe</h1>
+      <h4>The Perfectionist Software Craftsman</h4>
+      <p>
+        A master craftsman of the digital age, adept at architecting, designing, and implementing software solutions that drive innovation
+        and efficiency.
+      </p>
+      <ul>
+        <li>
+          <a href="https://github.com/johndoe">
+            <img src="img/GitHub.svg" alt="Github Profile" />
+          </a>
+        </li>
+        <li>
+          <a href="https://instagram.com/johndoe">
+            <img src="img/Instagram.svg" alt="Instagram Profile" />
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/johndoe">
+            <img src="img/Linkedin.svg" alt="Linkedin Profile" />
+          </a>
+        </li>
+        <li>
+          <a href="https://youtube.com/johndoe">
+            <img src="img/Youtube.svg" alt="Youtube Profile" />
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="articles">
+      <article>
+        <h2>Articles</h2>
+        <article>
+          <div>May 10, 2024</div>
+          <h4>Clean navigation using HTML & CSS</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+            fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum
+            auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante.
+          </p>
+          <a href="https://johndoe.com/blog/clean-nav-html-css"> Read More </a>
+        </article>
+        <article>
+          <div>July 12, 2024</div>
+          <h4>Responsive Web Design Media Queries</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+            fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum
+            auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante.
+          </p>
+          <a href="https://johndoe.com/blog/responsive-web-design-queries"> Read More </a>
+        </article>
+        <article>
+          <div>July 16, 2024</div>
+          <h4>3D Animation using CSS only</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
+            fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum
+            auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante.
+          </p>
+          <a href="https://johndoe.com/blog/3d-animation-using-css-only"> Read More </a>
+        </article>
+      </article>
+    </section>
+
+    <section id="projects">
+      <h2>Open Source Projects</h2>
+      <div>
+        <div>
+          <span>01</span>
+          <img src="img/vegking.png" />
+          <p>VegKing</p>
+        </div>
+        <div>
+          <span>02</span>
+          <img src="img/carstats.png" />
+          <p>Car Stats</p>
+        </div>
+        <div>
+          <span>03</span>
+          <img src="img/bloguikit.png" />
+          <p>Blog UI Kit</p>
+        </div>
+        <div>
+          <span>04</span>
+          <img src="img/webmonitor.png" />
+          <p>Web Monitor</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="presentations">
+      <h2>Presentations</h2>
+      <div>
+        <div>
+          <div class="presentation-video">
+            <img src="img/presentation-01.png" />
+            <img src="img/play-button.png" />
+          </div>
+          <div>
+            <h4>A Talk on Optimizing CSS for performance</h4>
+            <p>November 13, 2023</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="presentation-video">
+            <img src="img/presentation-02.png" />
+            <img src="img/play-button.png" />
+          </div>
+          <div>
+            <h4>A Talk on Optimizing CSS for performance</h4>
+            <p>November 13, 2023</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#presentations">Presentations</a></li>
+      </ul>
+
+      <div>© Copyright Shad Amez. All rights reserved</div>
+    </footer>
+  </body>
+</html>
