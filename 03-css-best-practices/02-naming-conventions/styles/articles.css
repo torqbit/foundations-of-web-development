@@ -1,16 +1,16 @@
-section#articles > article > article {
+.articles__item {
   background-color: white;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 20px;
 }
 
-section#articles > article > article > div {
+.articles__item > div {
   border-left: 4px solid #eee;
   padding-left: 10px;
 }
 
-section#articles a {
+.articles a {
   color: #666;
   width: 90px;
   display: inline-block;
@@ -24,7 +24,7 @@ section#articles a {
   transition: all 0.3s;
 }
 
-section#articles a:hover {
+.articles a:hover {
   background-color: #666;
   color: white;
   background-position: 85px;

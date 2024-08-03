@@ -1,5 +1,6 @@
 .about {
   text-align: center;
+  display: none;
 }
 
 .about__img {
