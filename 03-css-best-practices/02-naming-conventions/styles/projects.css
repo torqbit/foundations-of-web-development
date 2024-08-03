@@ -1,3 +1,6 @@
+.projects {
+  display: none;
+}
 .projects__container {
   display: grid;
   margin: 0 auto;
