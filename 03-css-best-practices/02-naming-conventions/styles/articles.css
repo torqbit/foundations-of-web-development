@@ -1,32 +1,32 @@
-.articles__item {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+section#articles > article > article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
 }
 
-.articles__item>div {
-    border-left: 4px solid #eee;
-    padding-left: 10px;
+section#articles > article > article > div {
+  border-left: 4px solid #eee;
+  padding-left: 10px;
 }
 
-.articles a {
-    color: #666;
-    width: 90px;
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px;
-    background-image: url("../img/right-arrow-dark.png");
-    background-repeat: no-repeat;
-    background-position: 80px;
-    background-color: #eee;
-    border-radius: 4px;
-    transition: all 0.3s;
+section#articles a {
+  color: #666;
+  width: 90px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  background-image: url("../img/right-arrow-dark.png");
+  background-repeat: no-repeat;
+  background-position: 80px;
+  background-color: #eee;
+  border-radius: 4px;
+  transition: all 0.3s;
 }
 
-.articles a:hover {
-    background-color: #666;
-    color: white;
-    background-position: 85px;
-    background-image: url("../img/right-arrow-light.png");
+section#articles a:hover {
+  background-color: #666;
+  color: white;
+  background-position: 85px;
+  background-image: url("../img/right-arrow-light.png");
 }
