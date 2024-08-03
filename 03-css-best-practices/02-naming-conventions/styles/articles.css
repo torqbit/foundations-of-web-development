@@ -1,3 +1,6 @@
+.articles {
+  display: none;
+}
 .articles__item {
   background-color: white;
   padding: 20px;
