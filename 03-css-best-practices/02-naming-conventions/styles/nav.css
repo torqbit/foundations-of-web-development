@@ -4,6 +4,7 @@
   background-color: white;
   margin: 50px auto;
   border-radius: 25px;
+  display: none;
 }
 .nav__links {
   height: 50px;
