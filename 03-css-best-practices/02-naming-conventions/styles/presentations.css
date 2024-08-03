@@ -1,16 +1,16 @@
-section#presentations > div {
+.presentations__container {
   display: flex;
   gap: 40px;
 }
-div.presentation-video {
+.presentations__item__video {
   width: 380px;
   height: 238px;
   position: relative;
 }
-div.presentation-video > img:first-child {
+.presentations__item__video > img:first-child {
   width: 380px;
 }
-div.presentation-video > img:last-child {
+.presentations__item__video > img:last-child {
   position: absolute;
   top: 0;
   left: 0;
@@ -19,13 +19,13 @@ div.presentation-video > img:last-child {
   margin: auto;
 }
 
-section#presentations h4 {
+.presentations__item h4 {
   margin: 10px 10px 10px 5px;
 }
-section#presentations p {
+.presentations__item p {
   margin: 5px;
 }
-section#presentations > div > div > div:last-child {
+.presentations__item > div:last-child {
   padding: 20px;
   background-color: white;
   height: 60px;
