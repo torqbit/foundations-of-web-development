@@ -1,3 +1,6 @@
+.presentations {
+  display: none;
+}
 .presentations__container {
   display: flex;
   gap: 40px;
