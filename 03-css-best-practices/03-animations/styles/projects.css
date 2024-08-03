@@ -1,0 +1,42 @@
+.projects {
+  display: none;
+}
+.projects__container {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.projects__item {
+  height: 240px;
+  width: 400px;
+  position: relative;
+}
+
+.projects__item img {
+  width: 400px;
+}
+
+.projects__item span {
+  position: absolute;
+  top: 20px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-left: 4px solid white;
+}
+
+.projects__item p {
+  position: absolute;
+  bottom: 0;
+  padding: 15px 0 15px 20px;
+  height: 20px;
+  background-color: rgb(64 64 64 / 80%);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 380px;
+  margin: 0;
+}
