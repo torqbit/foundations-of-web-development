@@ -7,3 +7,8 @@ section {
   max-width: 800px;
   margin: 50px auto;
 }
+
+ul {
+  margin: 0;
+  padding: 0;
+}
