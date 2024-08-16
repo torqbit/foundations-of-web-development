@@ -1,0 +1,35 @@
+.slider {
+  background-color: gray;
+  width: 500px;
+  height: 100px;
+  margin: 50px auto;
+  border-radius: 50px;
+  display: flex;
+  position: relative;
+}
+
+.slider > p {
+  position: absolute;
+  top: -50px;
+  right: 250px;
+  font-size: 20px;
+}
+
+.slider > div {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: orange;
+  margin: 10px;
+
+  animation: slide 1s ease-in 0.5s 5 normal forwards;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(400px);
+  }
+}
