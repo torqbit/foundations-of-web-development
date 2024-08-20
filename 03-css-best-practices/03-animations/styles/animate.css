@@ -33,3 +33,39 @@
     transform: translateX(400px);
   }
 }
+body {
+  margin: 0;
+}
+.about {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1510784722466-f2aa9c52fff6");
+  background-image: linear-gradient(45deg, #8c87ee, #e498f1, #dec272, #dd835c);
+  background-size: 200%;
+  background-position: 100% 100%;
+  animation: circulate 3s alternate infinite linear;
+  margin-bottom: 50px;
+}
+
+@keyframes circulate {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+.btn--action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  height: 30px;
+  width: 120px;
+  margin: 0 auto;
+
+  background-image: linear-gradient(45deg, #8c87ee, #e498f1, #dec272, #dd835c);
+}
