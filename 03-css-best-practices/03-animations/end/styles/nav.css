@@ -13,7 +13,7 @@
   list-style-type: none;
   display: flex;
   margin: 0;
-  gap: 10px;
+  gap: 30px;
   align-items: center;
   justify-content: center;
 }
@@ -44,6 +44,7 @@
 
 a.nav__action__btn {
   display: inline-block;
+  display: none;
 
   text-decoration: none;
   width: 80px;
