@@ -18,3 +18,11 @@
 .footer a:hover {
   color: #000;
 }
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .footer {
+    width: 90vw;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}

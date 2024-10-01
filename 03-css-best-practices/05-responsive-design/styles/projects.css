@@ -37,3 +37,23 @@
   width: 380px;
   margin: 0;
 }
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .projects {
+    width: 90vw;
+  }
+  .projects__container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .projects__item {
+    width: 100%;
+    height: auto;
+  }
+  .projects__item img {
+    width: inherit;
+  }
+  .projects__item p {
+    width: calc(100% - 20px);
+  }
+}

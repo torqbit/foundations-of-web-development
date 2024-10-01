@@ -30,3 +30,9 @@
   background-position: 85px;
   background-image: url("../img/right-arrow-light.png");
 }
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .articles {
+    width: 90vw;
+  }
+}
