@@ -1,0 +1,53 @@
+.articles__item {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.articles__item > div {
+  border-left: 4px solid #eee;
+  padding-left: 10px;
+}
+
+.articles a {
+  color: #666;
+  width: 90px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  background-image: url("../img/right-arrow-dark.png");
+  background-repeat: no-repeat;
+  background-position: 80px;
+  background-color: #eee;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.articles h4 {
+  width: 175px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.articles p {
+  line-height: 1.2rem;
+  color: #666;
+  text-indent: 10px;
+  word-break: normal;
+  word-spacing: 0.2rem;
+}
+
+.articles a:hover {
+  background-color: #666;
+  color: white;
+  background-position: 85px;
+  background-image: url("../img/right-arrow-light.png");
+}
+
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .articles {
+    width: 90vw;
+  }
+}

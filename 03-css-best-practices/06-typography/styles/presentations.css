@@ -1,0 +1,51 @@
+.presentations__container {
+  display: flex;
+  gap: 40px;
+}
+.presentations__item__video {
+  width: 380px;
+  height: 238px;
+  position: relative;
+}
+.presentations__item__video > img:first-child {
+  width: 380px;
+}
+.presentations__item__video > img:last-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.presentations__item h4 {
+  margin: 10px 10px 10px 5px;
+}
+.presentations__item p {
+  margin: 5px;
+}
+.presentations__item > div:last-child {
+  padding: 20px;
+  background-color: white;
+  height: 60px;
+}
+@media screen and (min-width: 360px) and (max-width: 600px) {
+  .presentations {
+    width: 90vw;
+  }
+
+  .presentations__container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .presentations__item__video {
+    width: 100%;
+    height: auto;
+  }
+
+  .presentations__item__video > img:first-child {
+    width: inherit;
+  }
+}
